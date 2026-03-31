@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jimmy Huang - Professional Resume</title>
+    <link rel="stylesheet" href="resume.css">
+</head>
+<body>
+    <div class="resume-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <header class="profile-header">
+                <h1 id="name">Jimmy Huang</h1>
+                <p id="current_title">Software Engineer | Backend Specialist</p>
+            </header>
+
+            <section class="contact-info">
+                <h3 class="section-title">Contact</h3>
+                <ul>
+                    <li id="location"><strong>Loc:</strong> Taiwan</li>
+                    <li><strong>Link:</strong> linkedin.com/in/jimmy-huang-07aa4722a</li>
+                </ul>
+            </section>
+
+            <section class="skills-list">
+                <h3 class="section-title">Expertise</h3>
+                <div class="skills-grid" id="skills-grid">
+                    <!-- Skills will be injected here -->
+                </div>
+            </section>
+
+            <section class="education-list">
+                <h3 class="section-title">Education</h3>
+                <ul id="education-list">
+                    <!-- Education will be injected here -->
+                </ul>
+            </section>
+
+            <section class="languages-list">
+                <h3 class="section-title">Languages</h3>
+                <ul id="languages-list" style="font-size: 13px;">
+                    <!-- Languages will be injected here -->
+                </ul>
+            </section>
+
+            <section class="cert-list">
+                <h3 class="section-title">Certifications</h3>
+                <div id="certifications-list">
+                    <!-- Certifications will be injected here -->
+                </div>
+            </section>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <section class="content-section">
+                <h2>Professional Summary</h2>
+                <p class="summary-text" id="about">
+                    <!-- About will be injected here -->
+                </p>
+            </section>
+
+            <section class="content-section">
+                <h2>Professional Experience</h2>
+                <div id="experience-container">
+                    <!-- Experience will be injected here -->
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h2>Key Projects</h2>
+                <div id="projects-container">
+                    <!-- Projects will be injected here -->
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script>
+        // GLOBAL rendering function to be called by Puppeteer
+        window.renderWithData = function(data) {
+            try {
+                // Name & Title
+                document.getElementById('name').textContent = data.name;
+                document.getElementById('current_title').textContent = data.current_title;
+                document.getElementById('location').innerHTML = `<strong>Loc:</strong> ${data.location}`;
+                document.getElementById('about').textContent = data.about;
+
+                // Skills/Expertise
+                const skillsGrid = document.getElementById('skills-grid');
+                if (data.skills && Array.isArray(data.skills)) {
+                    skillsGrid.innerHTML = data.skills.map(skill => `<span class="skill-tag">${skill}</span>`).join('');
+                }
+
+                // Education List
+                const educationList = document.getElementById('education-list');
+                if (data.education && Array.isArray(data.education)) {
+                    educationList.innerHTML = data.education.map(edu => `
+                        <li style="margin-bottom: 5px;"><strong>${edu.school || ''}</strong></li>
+                        <li style="font-size: 11px; color: var(--text-muted);">${edu.degree || ''}</li>
+                    `).join('');
+                }
+
+                // Languages
+                const languagesList = document.getElementById('languages-list');
+                if (data.languages && Array.isArray(data.languages)) {
+                    languagesList.innerHTML = data.languages.map(lang => `<li>${lang}</li>`).join('');
+                }
+
+                // Certifications
+                const certsList = document.getElementById('certifications-list');
+                if (data.certifications && Array.isArray(data.certifications)) {
+                    certsList.innerHTML = data.certifications.map(cert => `
+                        <div class="cert-item">
+                            <div class="cert-icon"></div>
+                            <span>${cert}</span>
+                        </div>
+                    `).join('');
+                }
+
+                // Experience History
+                const experienceContainer = document.getElementById('experience-container');
+                if (data.experience && Array.isArray(data.experience)) {
+                    experienceContainer.innerHTML = data.experience.map(exp => `
+                        <div class="experience-item">
+                            <div class="item-header">
+                                <span class="item-title">${exp.role || ''}</span>
+                                <span class="item-date">${exp.period || ''}</span>
+                            </div>
+                            <div class="item-company">${exp.company || ''}</div>
+                            <p class="experience-summary" style="margin-bottom: 8px;">${exp.description || ''}</p>
+                            <ul class="detail-list">
+                                ${(exp.details && Array.isArray(exp.details)) ? exp.details.map(detail => `<li>${detail}</li>`).join('') : ''}
+                            </ul>
+                        </div>
+                    `).join('');
+                }
+
+                // Key Projects
+                const projectsContainer = document.getElementById('projects-container');
+                if (data.projects && Array.isArray(data.projects)) {
+                    projectsContainer.innerHTML = data.projects.map(proj => `
+                        <div class="project-item">
+                            <div class="item-header">
+                                <span class="item-title">${proj.name || ''}</span>
+                            </div>
+                            <p class="experience-summary" style="margin-bottom: 5px;">${proj.description || ''}</p>
+                            <ul class="detail-list">
+                                ${(proj.details && Array.isArray(proj.details)) ? proj.details.map(detail => `<li>${detail}</li>`).join('') : ''}
+                            </ul>
+                        </div>
+                    `).join('');
+                }
+
+                // Signal that rendering is complete for Puppeteer
+                document.body.classList.add('render-complete');
+            } catch (error) {
+                console.error('CRITICAL: Rendering failed:', error);
+            }
+        };
+
+        // Fallback for manual viewing: fetch data if not injected
+        if (window.location.protocol !== 'file:') {
+            fetch('../data/profile.json')
+                .then(res => res.json())
+                .then(data => window.renderWithData(data))
+                .catch(err => console.error('FAILED: data side-load:', err));
+        }
+    </script>
+</body>
+</html>

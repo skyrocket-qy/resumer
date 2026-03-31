@@ -1,0 +1,83 @@
+{
+  "name": "Jimmy Huang",
+  "current_title": "Software Engineer | Backend Specialist at Fortune Fantasy Global Tech (Graid Technology)",
+  "location": "Taiwan",
+  "about": "Proactive, backend-focused engineer with experience across Cloud, DevOps, AI, and Frontend development. Specialized in high-performance infrastructure, ReBAC engines, and AI-driven workflows.",
+  "education": [
+    {
+      "school": "Chung Yuan Christian University (CYCU)",
+      "degree": "Engineering/Computer Science related"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Fortune Fantasy Global Tech .Ltd (Graid Technology)",
+      "role": "Software Engineer / Backend Engineer",
+      "period": "Aug 2023 - Present",
+      "description": "Leading backend infrastructure development for high-performance SupremeRAID™ NVMe solutions. Focused on scalable architecture, secure integrations, and database optimization.",
+      "details": [
+        "Built backend infrastructure and DB schema for complex business logic in alarm management systems.",
+        "Optimized MySQL index creation, reducing response times from 50s to 3s for critical queries.",
+        "Developed real-time monitoring APIs using Go (Gin) and GORM with multi-tenant data isolation.",
+        "Integrated AWS Cognito and custom JWT middleware for secure RBAC (Role-Based Access Control).",
+        "Automated schema migrations and versioning across MySQL using Atlas and GORM.",
+        "Architected secure Webhook and API Key systems for third-party integrations and automated reporting.",
+        "Standardized API documentation with Swagger and implemented structured logging using Zerolog.",
+        "Containerized applications with Docker and automated deployment using Makefiles and Shell scripts."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "AuthZ (Authorization Engine)",
+      "description": "Real-time, Zanzibar-inspired ReBAC engine supporting complex, recursive permission schemas.",
+      "details": [
+        "Architected a ReBAC engine supporting RBAC/ABAC, achieving 10k+ RPS with sub-1ms median latency.",
+        "Engineered a memory-first, sharded graph architecture to eliminate lock contention.",
+        "Optimized DB performance using Redis-backed Cuckoo Filters to slash duplicate lookups.",
+        "Built an event-driven state synchronization pipeline using Kafka and Debezium (CDC).",
+        "Integrated OpenTelemetry (OTel) for distributed tracing and metrics in high-throughput environments."
+      ]
+    },
+    {
+      "name": "RAG (Retrieval-Augmented Generation)",
+      "description": "Modular RAG pipeline integrating vector storage and LLMs for high-accuracy contextual retrieval.",
+      "details": [
+        "Engineered a pipeline using LangChain and LlamaIndex with ChromaDB for vector storage.",
+        "Optimized search recall via hybrid search (Semantic + Keyword) and Cohere Rerank, reducing hallucinations by 40%.",
+        "Developed an automated evaluation framework using Ragas to measure faithfulness and relevancy."
+      ]
+    },
+    {
+      "name": "Vistrace",
+      "description": "High-performance network scanner and AI-driven TDD logic execution environment.",
+      "details": [
+        "Engineered a high-performance ARP/DNS/ICMP scanner in Rust, optimizing the WASM pipeline.",
+        "Architected an AI-driven Agentic Workflow (OpenAI/Gemini) to autonomously execute TDD logic.",
+        "Developed 12+ custom Rust CLI tools to automate 80% of repetitive local setup tasks.",
+        "Achieved 95%+ test coverage and 100% automated doc sync using Playwright/Rust.",
+        "Integrated generative AI pipelines to reduce asset production time and costs by 50%."
+      ]
+    },
+    {
+      "name": "Predictive Analytics for League of Legends",
+      "description": "Tree-based model for identifying high-probability winning strategies.",
+      "details": [
+        "Engineered a predictive engine using XGBoost and LightGBM, achieving an AUC-ROC of 0.88.",
+        "Implemented SHAP/LIME for model interpretability and team draft optimization.",
+        "Developed a real-time data ingestion system using Python and Riot Games API for telemetry streaming."
+      ]
+    }
+  ],
+  "skills": [
+    "Backend: Go (Gin, GORM), Rust, Python, Node.js",
+    "Database: MySQL, Redis, Atlas, CDC (Debezium), Graph DB",
+    "Cloud/DevOps: AWS (Cognito, S3, OTel), Docker, Kafka, CI/CD",
+    "AI/ML: LLMs (OpenAI, Gemini), LangChain, LlamaIndex, Vector DB, Ragas, XGBoost",
+    "Frontend & Tools: WASM, Playwright, Swagger, Zerolog"
+  ],
+  "certifications": [
+    "AWS Certified Solutions Architect – Associate",
+    "Gemini certified student"
+  ]
+}

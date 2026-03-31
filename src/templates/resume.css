@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700&display=swap');
+
+:root {
+  --primary: #0055ff;
+  --primary-dark: #003db3;
+  --text-main: #1a1a1a;
+  --text-muted: #666666;
+  --bg-main: #ffffff;
+  --bg-sidebar: #f8faff;
+  --border-color: #e5e7eb;
+  --accent-color: #e0e7ff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: var(--text-main);
+  background-color: #f3f4f6;
+  line-height: 1.4;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+.resume-container {
+  width: 210mm;
+  min-height: 297mm;
+  margin: 20px auto;
+  background: white;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-columns: 260px 1fr;
+}
+
+@media print {
+  body {
+    background: none;
+    margin: 0;
+  }
+  .resume-container {
+    margin: 0;
+    box-shadow: none;
+    width: 100%;
+    min-height: 100%;
+  }
+  @page {
+    size: A4;
+    margin: 0;
+  }
+}
+
+/* Sidebar Styling */
+.sidebar {
+  background-color: var(--bg-sidebar);
+  border-right: 1px solid var(--border-color);
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.profile-header {
+  margin-bottom: 5px;
+}
+
+.profile-header h1 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--primary);
+  line-height: 1.1;
+}
+
+.profile-header p {
+  color: var(--text-muted);
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 4px;
+}
+
+.section-title {
+  font-family: 'Outfit', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-main);
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.section-title::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background-color: var(--border-color);
+}
+
+.contact-info, .skills-list, .education-list, .languages-list, .cert-list {
+  list-style: none;
+}
+
+.contact-info li {
+  font-size: 12px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  word-break: break-all;
+}
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.skill-tag {
+  display: inline-block;
+  background: var(--accent-color);
+  color: var(--primary-dark);
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+/* Main Content Styling */
+.main-content {
+  padding: 30px 40px;
+}
+
+.content-section {
+  margin-bottom: 25px;
+}
+
+.content-section h2 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 15px;
+  border-bottom: 2px solid var(--accent-color);
+  padding-bottom: 6px;
+}
+
+.summary-text {
+  font-size: 13px;
+  color: var(--text-muted);
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.experience-item, .project-item {
+  margin-bottom: 20px;
+}
+
+.item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.item-title {
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--text-main);
+}
+
+.item-company {
+  font-weight: 600;
+  color: var(--primary);
+  font-size: 13px;
+  margin-bottom: 2px;
+}
+
+.item-date {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.experience-summary {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text-main);
+}
+
+.detail-list {
+    list-style-type: none;
+    margin-top: 5px;
+    padding-left: 0;
+}
+
+.detail-list li {
+    font-size: 11px;
+    color: var(--text-muted);
+    margin-bottom: 3px;
+    position: relative;
+    padding-left: 14px;
+    line-height: 1.4;
+}
+
+.detail-list li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.cert-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    margin-bottom: 6px;
+    color: var(--text-muted);
+}
+
+.cert-icon {
+    width: 6px;
+    height: 6px;
+    background: var(--primary);
+    border-radius: 50%;
+}
