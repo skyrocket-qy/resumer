@@ -6,43 +6,26 @@ cv:
   email: skyrocketqy81@gmail.com
   photo:
   phone:
-  website: https://rendercv.com/
+  website: https://adminx-ebon.vercel.app/
   social_networks:
     - network: LinkedIn
-      username: rendercv
+      username: jimmy-huang-07aa4722a
     - network: GitHub
-      username: rendercv
+      username: skyrocket-qy
+    - network: Leetcode
+      username: rivendinner
   custom_connections:
   sections:
-    Welcome to RenderCV:
-      - RenderCV reads a CV written in a YAML file, and generates a PDF with professional typography.
-      - Each section title is arbitrary.
-      - You can choose any of the 9 entry types for each section.
-      - Markdown syntax is supported everywhere. This is **bold**, *italic*, and [link](https://example.com).
-    education:
-      - institution: Chung Yuan Christian University
-        area: Applied Mathematics
-        degree: MS
-        date:
-        start_date: 2020-09
-        end_date: 2022-06
-        # location: Princeton, NJ
-        # summary:
-        # highlights:
-        #   - "Thesis: Efficient Neural Architecture Search for Resource-Constrained Deployment"
-        #   - "Advisor: Prof. Sanjeev Arora"
-        #   - NSF Graduate Research Fellowship, Siebel Scholar (Class of 2022)
-      - institution: Chang Jung Christian University
-        area: Accounting and Information
-        degree: BS
-        date:
-        start_date: 2015-09
-        end_date: 2019-06
+    # Welcome to RenderCV:
+    #   - RenderCV reads a CV written in a YAML file, and generates a PDF with professional typography.
+    #   - Each section title is arbitrary.
+    #   - You can choose any of the 9 entry types for each section.
+    #   - Markdown syntax is supported everywhere. This is **bold**, *italic*, and [link](https://example.com).
     experience:
       - company: Fortune Fantasy Global Tech .Ltd
         position: Backend Engineer
         start_date: 2025-06
-        location: On-site
+        location: Taiwan
         highlights:
           - Develop various modern slot games
           - Administrator backend management
@@ -63,6 +46,7 @@ cv:
         position: BMC Firmware Engineer II
         start_date: 2024-10
         end_date: 2025-03
+        location: Taiwan
         highlights:
           - Independently operates in BMC
           - Proficient in D-Bus usage
@@ -75,7 +59,7 @@ cv:
         position: Backend Engineer
         start_date: 2024-03
         end_date: 2024-09
-        location: Hybrid
+        location: Taiwan
         highlights:
           - Implemented new features and maintained existing microservice projects using PHP and Go
           - Developed new payment and management system using GoFrame and gRPC
@@ -111,6 +95,25 @@ cv:
         highlights:
           - Object Oriented Programming TA
           - Introduction to Data Science TA
+    education:
+      - institution: Chung Yuan Christian University
+        area: Applied Mathematics
+        degree: MS
+        date:
+        start_date: 2020-09
+        end_date: 2022-06
+        # location: Princeton, NJ
+        # summary:
+        # highlights:
+        #   - "Thesis: Efficient Neural Architecture Search for Resource-Constrained Deployment"
+        #   - "Advisor: Prof. Sanjeev Arora"
+        #   - NSF Graduate Research Fellowship, Siebel Scholar (Class of 2022)
+      - institution: Chang Jung Christian University
+        area: Accounting and Information
+        degree: BS
+        date:
+        start_date: 2015-09
+        end_date: 2019-06
     projects:
       - name: Alarm system
         start_date: 2024-11
@@ -161,6 +164,14 @@ cv:
           - Developed 12+ custom Rust CLI tools and static analysis guardrails that eradicated circular dependencies and automated 80% of the game's content ingestion pipeline.
           - Automated end-to-end testing and documentation by combining AI scenario generation with Playwright/Rust, achieving 95%+ test coverage on core systems, cutting manual QA time by 60%, and maintaining 100% automated documentation accuracy.
           - Integrated generative AI pipelines to accelerate asset creation, deploying 30+ production-ready UI and background assets and reducing deployment time from days to minutes.
+    licenses_and_certifications:
+      - name: AWS Certified Solutions Architect – Associate
+        location: Amazon Web Services (AWS)
+        # start_date: 2026-02
+      - name: Gemini certified student
+        location: Google
+        # highlights:
+        #   - "Gemini, NotebookLM, and +4 skills"
       # publications:
       # - title: "Sparse Mixture-of-Experts at Scale: Efficient Routing for Trillion-Parameter Models"
       #   authors:

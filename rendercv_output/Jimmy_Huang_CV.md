@@ -2,43 +2,16 @@
 
 - Email: [skyrocketqy81@gmail.com](mailto:skyrocketqy81@gmail.com)
 - Location: Taipei, Taiwan
-- Website: [rendercv.com](https://rendercv.com/)
-- LinkedIn: [rendercv](https://linkedin.com/in/rendercv)
-- GitHub: [rendercv](https://github.com/rendercv)
-
-
-# Welcome to RenderCV
-RenderCV reads a CV written in a YAML file, and generates a PDF with professional typography.
-
-Each section title is arbitrary.
-
-You can choose any of the 9 entry types for each section.
-
-Markdown syntax is supported everywhere. This is **bold**, *italic*, and [link](https://example.com).
-
-# Education
-## **Chung Yuan Christian University**, Applied Mathematics
-
-**MS**
-
-
-Sept 2020 – June 2022
-
-
-
-## **Chang Jung Christian University**, Accounting and Information
-
-**BS**
-
-
-Sept 2015 – June 2019
-
+- Website: [adminx-ebon.vercel.app](https://adminx-ebon.vercel.app/)
+- LinkedIn: [jimmy-huang-07aa4722a](https://linkedin.com/in/jimmy-huang-07aa4722a)
+- GitHub: [skyrocket-qy](https://github.com/skyrocket-qy)
+- Leetcode: [rivendinner](https://leetcode.com/u/rivendinner)
 
 
 # Experience
 ## **Fortune Fantasy Global Tech .Ltd**, Backend Engineer
 
-On-site
+Taiwan
 
 June 2025 – present
 
@@ -80,6 +53,8 @@ A real-time, high-throughput, multi-tenant SaaS alarm management service used by
 
 ## **AMI**, BMC Firmware Engineer II
 
+Taiwan
+
 Oct 2024 – Mar 2025
 
 
@@ -104,7 +79,7 @@ Oct 2024 – Mar 2025
 
 ## **Taihe Technology Co., Ltd.**, Backend Engineer
 
-Hybrid
+Taiwan
 
 Mar 2024 – Sept 2024
 
@@ -179,6 +154,25 @@ Sept 2021 – June 2022
 - Object Oriented Programming TA
 
 - Introduction to Data Science TA
+
+
+
+# Education
+## **Chung Yuan Christian University**, Applied Mathematics
+
+**MS**
+
+
+Sept 2020 – June 2022
+
+
+
+## **Chang Jung Christian University**, Accounting and Information
+
+**BS**
+
+
+Sept 2015 – June 2019
 
 
 
@@ -270,6 +264,19 @@ Jan 2022 – June 2023
 - Automated end-to-end testing and documentation by combining AI scenario generation with Playwright/Rust, achieving 95%+ test coverage on core systems, cutting manual QA time by 60%, and maintaining 100% automated documentation accuracy.
 
 - Integrated generative AI pipelines to accelerate asset creation, deploying 30+ production-ready UI and background assets and reducing deployment time from days to minutes.
+
+
+
+# Licenses and Certifications
+## **AWS Certified Solutions Architect – Associate**
+
+Amazon Web Services (AWS)
+
+
+
+## **Gemini certified student**
+
+Google
 
 
 

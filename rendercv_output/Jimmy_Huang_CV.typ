@@ -91,51 +91,12 @@
 #connections(
   [#connection-with-icon("location-dot")[Taipei, Taiwan]],
   [#link("mailto:skyrocketqy81@gmail.com", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[skyrocketqy81\@gmail.com]]],
-  [#link("https://rendercv.com/", icon: false, if-underline: false, if-color: false)[#connection-with-icon("link")[rendercv.com]]],
-  [#link("https://linkedin.com/in/rendercv", icon: false, if-underline: false, if-color: false)[#connection-with-icon("linkedin")[rendercv]]],
-  [#link("https://github.com/rendercv", icon: false, if-underline: false, if-color: false)[#connection-with-icon("github")[rendercv]]],
+  [#link("https://adminx-ebon.vercel.app/", icon: false, if-underline: false, if-color: false)[#connection-with-icon("link")[adminx-ebon.vercel.app]]],
+  [#link("https://linkedin.com/in/jimmy-huang-07aa4722a", icon: false, if-underline: false, if-color: false)[#connection-with-icon("linkedin")[jimmy-huang-07aa4722a]]],
+  [#link("https://github.com/skyrocket-qy", icon: false, if-underline: false, if-color: false)[#connection-with-icon("github")[skyrocket-qy]]],
+  [#link("https://leetcode.com/u/rivendinner", icon: false, if-underline: false, if-color: false)[#connection-with-icon("code")[rivendinner]]],
 )
 
-
-== Welcome to RenderCV
-
-RenderCV reads a CV written in a YAML file, and generates a PDF with professional typography.
-
-Each section title is arbitrary.
-
-You can choose any of the 9 entry types for each section.
-
-Markdown syntax is supported everywhere. This is #strong[bold], #emph[italic], and #link("https://example.com")[link].
-
-== Education
-
-#education-entry(
-  [
-    #strong[Chung Yuan Christian University], Applied Mathematics
-
-  ],
-  [
-    Sept 2020 – June 2022
-
-  ],
-  degree-column: [
-    #strong[MS]
-  ],
-)
-
-#education-entry(
-  [
-    #strong[Chang Jung Christian University], Accounting and Information
-
-  ],
-  [
-    Sept 2015 – June 2019
-
-  ],
-  degree-column: [
-    #strong[BS]
-  ],
-)
 
 == Experience
 
@@ -151,7 +112,7 @@ Markdown syntax is supported everywhere. This is #strong[bold], #emph[italic], a
 
   ],
   [
-    On-site
+    Taiwan
 
     June 2025 – present
 
@@ -211,6 +172,8 @@ Markdown syntax is supported everywhere. This is #strong[bold], #emph[italic], a
 
   ],
   [
+    Taiwan
+
     Oct 2024 – Mar 2025
 
     
@@ -234,7 +197,7 @@ Markdown syntax is supported everywhere. This is #strong[bold], #emph[italic], a
 
   ],
   [
-    Hybrid
+    Taiwan
 
     Mar 2024 – Sept 2024
 
@@ -317,6 +280,36 @@ Markdown syntax is supported everywhere. This is #strong[bold], #emph[italic], a
 
     10 months
 
+  ],
+)
+
+== Education
+
+#education-entry(
+  [
+    #strong[Chung Yuan Christian University], Applied Mathematics
+
+  ],
+  [
+    Sept 2020 – June 2022
+
+  ],
+  degree-column: [
+    #strong[MS]
+  ],
+)
+
+#education-entry(
+  [
+    #strong[Chang Jung Christian University], Accounting and Information
+
+  ],
+  [
+    Sept 2015 – June 2019
+
+  ],
+  degree-column: [
+    #strong[BS]
   ],
 )
 
@@ -434,6 +427,30 @@ Markdown syntax is supported everywhere. This is #strong[bold], #emph[italic], a
 
   ],
   [
+  ],
+)
+
+== Licenses and Certifications
+
+#regular-entry(
+  [
+    #strong[AWS Certified Solutions Architect – Associate]
+
+  ],
+  [
+    Amazon Web Services (AWS)
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Gemini certified student]
+
+  ],
+  [
+    Google
+
   ],
 )
 
