@@ -38,22 +38,79 @@ cv:
         date:
         start_date: 2015-09
         end_date: 2019-06
-        # location: Istanbul, Türkiye
-        # summary:
-        # highlights:
-        #   - "GPA: 3.97/4.00, Valedictorian"
-        #   - Fulbright Scholarship recipient for Graduate Studies
     experience:
-      - company: Microsoft Research
-        position: Research Intern
-        date:
-        start_date: 2019-05
-        end_date: 2019-08
-        location: Redmond, WA
-        summary:
+      - company: Fortune Fantasy Global Tech .Ltd
+        position: Backend Engineer
+        start_date: 2025-06
+        location: On-site
         highlights:
-          - Implemented novel self-supervised learning framework for low-resource language modeling
-          - Research integrated into Azure Cognitive Services, reducing training data requirements by 60%
+          - Develop various modern slot games
+          - Administrator backend management
+          - Explore OpenClaw usage with business
+      - company: Fontech
+        position: Senior Backend Engineer
+        start_date: 2024-11
+        end_date: 2025-05
+        location: Remote
+        summary: A real-time, high-throughput, multi-tenant SaaS alarm management service used by various U.S. corporations.
+        highlights:
+          - Built from the ground up
+          - Spearheaded a team of 3 backend engineers, implementing robust library with clean architecture to improve team's 50% delivery velocity
+          - Architected critical system components focusing on horizontal scalability
+          - "Integrated various AWS infrastructure (Cognito, EC2, KMS, RDS...etc) to reduce operational overhead"
+          - Developed advanced SQL query optimizations that reduced complex query times from 60s to 0.1s
+      - company: AMI
+        position: BMC Firmware Engineer II
+        start_date: 2024-10
+        end_date: 2025-03
+        highlights:
+          - Independently operates in BMC
+          - Proficient in D-Bus usage
+          - Experienced and skilled in developing with Redfish APIs
+          - Implemented optimization library for REP architecture, saving up to 50% time and code to do parse and validate
+          - Resolved multiple defects across different level modules
+          - Proactively proposes solutions to work-related issues and shares them with teams
+          - Collaborate with India and US teams with English communication
+      - company: Taihe Technology Co., Ltd.
+        position: Backend Engineer
+        start_date: 2024-03
+        end_date: 2024-09
+        location: Hybrid
+        highlights:
+          - Implemented new features and maintained existing microservice projects using PHP and Go
+          - Developed new payment and management system using GoFrame and gRPC
+          - Quickly familiarized with customized ORM, project architecture, and memSQL
+          - Assisted juniors in resolving backend and frontend issues
+      - company: CIeNET Technologies
+        position: Software Engineer
+        start_date: 2023-09
+        end_date: 2024-03
+        location: On-site at Google's Camera System Team
+        highlights:
+          - Responsible for testing Pixel cameras, also developing scripts (Python, Shell) to increase automation test coverage from 85% to 95%
+          - Analyzed test data for potential root causes
+          - Maintaining the automated testing pipeline
+      - company: Ubitus
+        position: Backend Engineer
+        start_date: 2021-06
+        end_date: 2023-08
+        location: Taiwan
+        highlights:
+          - Development of programs based on microservices and cloud infrastructure (Kubernetes, AWS) using Go, Python, and Node.js.
+          - Deployment and scripting for setting up cloud services and various services using Docker, Ansible, and Helm.
+          - Development and maintenance of an existing in-game content management system using Node.js, Go, and Python.
+          - Establishing a real-time Twitter comment monitoring system for internal use using Python and Prometheus.
+          - Developing AI-related services and applications like stable-diffustion using Python.
+          - Built up log collectors and workflow mechanisms using Fluentd and Airflow.
+          - Writing unit tests, integration tests, and end-to-end tests using K6.
+      - company: Chung Yuan Christian University
+        position: Teaching Assistant
+        start_date: 2021-09
+        end_date: 2022-06
+        location: Taiwan
+        highlights:
+          - Object Oriented Programming TA
+          - Introduction to Data Science TA
     projects:
       - name: "[FlashInfer](https://github.com/)"
         date:
@@ -75,12 +132,12 @@ cv:
       #   url:
       #   journal: NeurIPS 2023
       #   date: 2023-07
-    selected_honors:
-      - bullet: MIT Technology Review 35 Under 35 Innovators (2024)
-      - bullet: Forbes 30 Under 30 in Enterprise Technology (2024)
-      - bullet: ACM Doctoral Dissertation Award Honorable Mention (2023)
-      - bullet: Google PhD Fellowship in Machine Learning (2020 – 2023)
-      - bullet: Fulbright Scholarship for Graduate Studies (2018)
+    # selected_honors:
+    #   - bullet: MIT Technology Review 35 Under 35 Innovators (2024)
+    #   - bullet: Forbes 30 Under 30 in Enterprise Technology (2024)
+    #   - bullet: ACM Doctoral Dissertation Award Honorable Mention (2023)
+    #   - bullet: Google PhD Fellowship in Machine Learning (2020 – 2023)
+    #   - bullet: Fulbright Scholarship for Graduate Studies (2018)
     skills:
       - label: Languages
         details: Python, C++, CUDA, Rust, Julia
@@ -90,15 +147,15 @@ cv:
         details: Kubernetes, Ray, distributed training, AWS, GCP
       - label: Research Areas
         details: Neural architecture search, model compression, efficient inference, multi-agent RL
-    patents:
-      - number: Adaptive Quantization for Neural Network Inference on Edge Devices (US Patent 11,234,567)
-      - number: Dynamic Sparsity Patterns for Efficient Transformer Attention (US Patent 11,345,678)
-      - number: Hardware-Aware Neural Architecture Search Method (US Patent 11,456,789)
-    invited_talks:
-      - reversed_number: Scaling Laws for Efficient Inference — Stanford HAI Symposium (2024)
-      - reversed_number: Building AI Infrastructure for the Next Decade — TechCrunch Disrupt (2024)
-      - reversed_number: "From Research to Production: Lessons in ML Systems — NeurIPS Workshop (2023)"
-      - reversed_number: "Efficient Deep Learning: A Practitioner's Perspective — Google Tech Talk (2022)"
+    # patents:
+    #   - number: Adaptive Quantization for Neural Network Inference on Edge Devices (US Patent 11,234,567)
+    #   - number: Dynamic Sparsity Patterns for Efficient Transformer Attention (US Patent 11,345,678)
+    #   - number: Hardware-Aware Neural Architecture Search Method (US Patent 11,456,789)
+    # invited_talks:
+    #   - reversed_number: Scaling Laws for Efficient Inference — Stanford HAI Symposium (2024)
+    #   - reversed_number: Building AI Infrastructure for the Next Decade — TechCrunch Disrupt (2024)
+    #   - reversed_number: "From Research to Production: Lessons in ML Systems — NeurIPS Workshop (2023)"
+    #   - reversed_number: "Efficient Deep Learning: A Practitioner's Perspective — Google Tech Talk (2022)"
 design:
   theme: classic
   # page:

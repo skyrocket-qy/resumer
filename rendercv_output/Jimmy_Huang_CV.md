@@ -36,19 +36,149 @@ Sept 2015 – June 2019
 
 
 # Experience
-## **Microsoft Research**, Research Intern
+## **Fortune Fantasy Global Tech .Ltd**, Backend Engineer
 
-Redmond, WA
+On-site
 
-May 2019 – Aug 2019
+June 2025 – present
 
 
 
-4 months
+11 months
 
-- Implemented novel self-supervised learning framework for low-resource language modeling
+- Develop various modern slot games
 
-- Research integrated into Azure Cognitive Services, reducing training data requirements by 60%
+- Administrator backend management
+
+- Explore OpenClaw usage with business
+
+
+
+## **Fontech**, Senior Backend Engineer
+
+Remote
+
+Nov 2024 – May 2025
+
+
+
+7 months
+
+A real-time, high-throughput, multi-tenant SaaS alarm management service used by various U.S. corporations.
+
+- Built from the ground up
+
+- Spearheaded a team of 3 backend engineers, implementing robust library with clean architecture to improve team's 50% delivery velocity
+
+- Architected critical system components focusing on horizontal scalability
+
+- Integrated various AWS infrastructure (Cognito, EC2, KMS, RDS...etc) to reduce operational overhead
+
+- Developed advanced SQL query optimizations that reduced complex query times from 60s to 0.1s
+
+
+
+## **AMI**, BMC Firmware Engineer II
+
+Oct 2024 – Mar 2025
+
+
+
+6 months
+
+- Independently operates in BMC
+
+- Proficient in D-Bus usage
+
+- Experienced and skilled in developing with Redfish APIs
+
+- Implemented optimization library for REP architecture, saving up to 50% time and code to do parse and validate
+
+- Resolved multiple defects across different level modules
+
+- Proactively proposes solutions to work-related issues and shares them with teams
+
+- Collaborate with India and US teams with English communication
+
+
+
+## **Taihe Technology Co., Ltd.**, Backend Engineer
+
+Hybrid
+
+Mar 2024 – Sept 2024
+
+
+
+7 months
+
+- Implemented new features and maintained existing microservice projects using PHP and Go
+
+- Developed new payment and management system using GoFrame and gRPC
+
+- Quickly familiarized with customized ORM, project architecture, and memSQL
+
+- Assisted juniors in resolving backend and frontend issues
+
+
+
+## **CIeNET Technologies**, Software Engineer
+
+On-site at Google's Camera System Team
+
+Sept 2023 – Mar 2024
+
+
+
+7 months
+
+- Responsible for testing Pixel cameras, also developing scripts (Python, Shell) to increase automation test coverage from 85% to 95%
+
+- Analyzed test data for potential root causes
+
+- Maintaining the automated testing pipeline
+
+
+
+## **Ubitus**, Backend Engineer
+
+Taiwan
+
+June 2021 – Aug 2023
+
+
+
+2 years 3 months
+
+- Development of programs based on microservices and cloud infrastructure (Kubernetes, AWS) using Go, Python, and Node.js.
+
+- Deployment and scripting for setting up cloud services and various services using Docker, Ansible, and Helm.
+
+- Development and maintenance of an existing in-game content management system using Node.js, Go, and Python.
+
+- Establishing a real-time Twitter comment monitoring system for internal use using Python and Prometheus.
+
+- Developing AI-related services and applications like stable-diffustion using Python.
+
+- Built up log collectors and workflow mechanisms using Fluentd and Airflow.
+
+- Writing unit tests, integration tests, and end-to-end tests using K6.
+
+
+
+## **Chung Yuan Christian University**, Teaching Assistant
+
+Taiwan
+
+Sept 2021 – June 2022
+
+
+
+10 months
+
+- Object Oriented Programming TA
+
+- Introduction to Data Science TA
 
 
 
@@ -65,17 +195,6 @@ Open-source library for high-performance LLM inference kernels
 
 
 
-# Selected Honors
-- MIT Technology Review 35 Under 35 Innovators (2024)
-
-- Forbes 30 Under 30 in Enterprise Technology (2024)
-
-- ACM Doctoral Dissertation Award Honorable Mention (2023)
-
-- Google PhD Fellowship in Machine Learning (2020 – 2023)
-
-- Fulbright Scholarship for Graduate Studies (2018)
-
 # Skills
 **Languages:** Python, C++, CUDA, Rust, Julia
 
@@ -84,19 +203,3 @@ Open-source library for high-performance LLM inference kernels
 **Infrastructure:** Kubernetes, Ray, distributed training, AWS, GCP
 
 **Research Areas:** Neural architecture search, model compression, efficient inference, multi-agent RL
-
-# Patents
-1. Adaptive Quantization for Neural Network Inference on Edge Devices (US Patent 11,234,567)
-
-1. Dynamic Sparsity Patterns for Efficient Transformer Attention (US Patent 11,345,678)
-
-1. Hardware-Aware Neural Architecture Search Method (US Patent 11,456,789)
-
-# Invited Talks
-1. Scaling Laws for Efficient Inference — Stanford HAI Symposium (2024)
-
-1. Building AI Infrastructure for the Next Decade — TechCrunch Disrupt (2024)
-
-1. From Research to Production: Lessons in ML Systems — NeurIPS Workshop (2023)
-
-1. Efficient Deep Learning: A Practitioner's Perspective — Google Tech Talk (2022)
