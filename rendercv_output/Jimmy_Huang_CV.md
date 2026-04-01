@@ -19,7 +19,7 @@ June 2025 – present
 
 11 months
 
-- Develop various modern slot games
+- Developing various modern slot games
 
 - Administrator backend management
 

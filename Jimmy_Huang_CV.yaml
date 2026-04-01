@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
 cv:
   name: Jimmy Huang
-  headline:
+  headline: Senior Backend Engineer & Cloud Architect
   location: Taipei, Taiwan
   email: skyrocketqy81@gmail.com
   photo:
@@ -27,7 +27,7 @@ cv:
         start_date: 2025-06
         location: Taiwan
         highlights:
-          - Develop various modern slot games
+          - Developing various modern slot games
           - Administrator backend management
           - Explore OpenClaw usage with business
       - company: Fontech
@@ -398,5 +398,5 @@ settings:
     dont_generate_typst: false
     dont_generate_pdf: false
     dont_generate_png: false
-  bold_keywords: []
+  # bold_keywords: [Go, Python, C++, Rust, SQL, AWS, Kubernetes, Docker, RAG, LLM, Redfish, D-Bus, BMC, Microservices, SaaS, Gin, GORM, PostgreSQL, MySQL, Redis, Kafka, AuthZ, Clean Architecture, CI/CD, LangChain, TDD, Redfish]
   pdf_title: NAME - CV

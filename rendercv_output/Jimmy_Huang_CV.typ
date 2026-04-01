@@ -88,6 +88,8 @@
 
 = Jimmy Huang
 
+  #headline([Senior Backend Engineer & Cloud Architect])
+
 #connections(
   [#connection-with-icon("location-dot")[Taipei, Taiwan]],
   [#link("mailto:skyrocketqy81@gmail.com", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[skyrocketqy81\@gmail.com]]],
@@ -104,7 +106,7 @@
   [
     #strong[Fortune Fantasy Global Tech .Ltd], Backend Engineer
 
-    - Develop various modern slot games
+    - Developing various modern slot games
 
     - Administrator backend management
 
