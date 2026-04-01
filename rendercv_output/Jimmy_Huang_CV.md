@@ -281,10 +281,21 @@ Google
 
 
 # Skills
-**Languages:** Python, C++, CUDA, Rust, Julia
+**Languages:** Go, Python, C, Rust, JavaScript (Node.js/React.js/Next.js), Lua, Shell
 
-**ML Frameworks:** PyTorch, JAX, TensorFlow, Triton, ONNX
+**Infrastructure & Cloud:** AWS, Kubernetes, Docker, Helm, Ansible, CI/CD
 
-**Infrastructure:** Kubernetes, Ray, distributed training, AWS, GCP
+**AI/ML & Data Science:** LLM, RAG, TensorFlow, CNN, Decision Trees, Web Crawling
 
-**Research Areas:** Neural architecture search, model compression, efficient inference, multi-agent RL
+**Monitoring & Observability:** OpenTelemetry, Prometheus, Grafana, Loki, Fluentd, D-Bus, K6 (Testing)
+
+**Operating Systems & Tools:** Linux, Git, Makefile, D-Bus
+
+# Languages
+## **Mandarin (Native)**
+
+
+
+## **English (Intermediate)**
+
+

@@ -456,10 +456,32 @@
 
 == Skills
 
-#strong[Languages:] Python, C++, CUDA, Rust, Julia
+#strong[Languages:] Go, Python, C, Rust, JavaScript (Node.js\/React.js\/Next.js), Lua, Shell
 
-#strong[ML Frameworks:] PyTorch, JAX, TensorFlow, Triton, ONNX
+#strong[Infrastructure & Cloud:] AWS, Kubernetes, Docker, Helm, Ansible, CI\/CD
 
-#strong[Infrastructure:] Kubernetes, Ray, distributed training, AWS, GCP
+#strong[AI\/ML & Data Science:] LLM, RAG, TensorFlow, CNN, Decision Trees, Web Crawling
 
-#strong[Research Areas:] Neural architecture search, model compression, efficient inference, multi-agent RL
+#strong[Monitoring & Observability:] OpenTelemetry, Prometheus, Grafana, Loki, Fluentd, D-Bus, K6 (Testing)
+
+#strong[Operating Systems & Tools:] Linux, Git, Makefile, D-Bus
+
+== Languages
+
+#regular-entry(
+  [
+    #strong[Mandarin (Native)]
+
+  ],
+  [
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[English (Intermediate)]
+
+  ],
+  [
+  ],
+)

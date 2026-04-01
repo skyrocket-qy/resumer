@@ -191,13 +191,20 @@ cv:
     #   - bullet: Fulbright Scholarship for Graduate Studies (2018)
     skills:
       - label: Languages
-        details: Python, C++, CUDA, Rust, Julia
-      - label: ML Frameworks
-        details: PyTorch, JAX, TensorFlow, Triton, ONNX
-      - label: Infrastructure
-        details: Kubernetes, Ray, distributed training, AWS, GCP
-      - label: Research Areas
-        details: Neural architecture search, model compression, efficient inference, multi-agent RL
+        details: Go, Python, C, Rust, JavaScript (Node.js/React.js/Next.js), Lua, Shell
+      - label: Infrastructure & Cloud
+        details: AWS, Kubernetes, Docker, Helm, Ansible, CI/CD
+      - label: AI/ML & Data Science
+        details: LLM, RAG, TensorFlow, CNN, Decision Trees, Web Crawling
+      - label: Monitoring & Observability
+        details: OpenTelemetry, Prometheus, Grafana, Loki, Fluentd, D-Bus, K6 (Testing)
+      - label: Operating Systems & Tools
+        details: Linux, Git, Makefile, D-Bus
+    languages:
+      - name: Mandarin (Native)
+      - name: English (Intermediate)
+      
+
     # patents:
     #   - number: Adaptive Quantization for Neural Network Inference on Edge Devices (US Patent 11,234,567)
     #   - number: Dynamic Sparsity Patterns for Efficient Transformer Attention (US Patent 11,345,678)
