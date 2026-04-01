@@ -183,15 +183,93 @@ Sept 2021 – June 2022
 
 
 # Projects
-## **[FlashInfer](https://github.com/)**
+## **Alarm system**
 
-Jan 2023 – present
+Associated with Fontech
 
-Open-source library for high-performance LLM inference kernels
+Nov 2024 – present
 
-- Achieved 2.8x speedup over baseline attention implementations on A100 GPUs
+The project built on well-known camera corp for alarm management.
 
-- Adopted by 3 major AI labs, 8,500+ GitHub stars, 200+ contributors
+- Built the backend infrastructure and db schema to fit business logic.
+
+- Optimized the index creation to ensure low RTs, reducing them from 50s to 3s.
+
+- Built a real-time alarm monitoring API using Go (Gin) and GORM, supporting complex alarm lifecycles and multi-tenant data isolation.
+
+- Integrated AWS Cognito and custom JWT middleware to manage secure user authentication and role-based access control.
+
+- Automated schema migrations and versioning across MySQL using Atlas and GORM.
+
+- Architected a secure Webhook and API Key system to enable third-party integrations and automated reporting.
+
+- Standardized API documentation with Swagger (swag) and implemented structured logging using Zerolog for rapid debugging.
+
+- Containerized the application with Docker and automated deployment workflows using Makefiles and Shell scripts.
+
+
+
+## **AuthZ**
+
+July 2025 – Aug 2025
+
+- Architected a real-time, Zanzibar-inspired ReBAC engine supporting complex, recursive permission schemas (RBAC/ABAC), achieving 10k+ RPS per service with sub-1ms median latency.
+
+- Engineered a memory-first, sharded graph architecture that eliminated lock contention and facilitated efficient tree-based relationship exploration for authorization tuple operations.
+
+- Optimized database performance by implementing Redis-backed Cuckoo Filters for probabilistic existence checks, preventing redundant writes and slashing expensive duplicate lookups.
+
+- Built an event-driven state synchronization pipeline utilizing Kafka and Debezium (CDC) to stream tuple updates, ensuring real-time consistency across a distributed cluster.
+
+- Integrated comprehensive observability with OpenTelemetry (OTel) for distributed tracing and metrics, streamlining troubleshooting in high-throughput production environments.
+
+
+
+## **RAG**
+
+July 2025 – Aug 2025
+
+This project implements a RAG (Retrieval-Augmented Generation) system to accelerate software development tasks like architecture comprehension and debugging. It leverages a large language model (LLM) to understand and analyze a codebase.
+
+- Used LangChain to generate vector embeddings from the source code.
+
+- Stored embeddings in a PostgreSQL database using the PGVector extension for efficient similarity searches.
+
+- A self-hosted Llama model serves as the core LLM for generation and reasoning.
+
+- Retrieves relevant code snippets from the vector store and provides them as context to the LLM upon query.
+
+
+
+## **The application of tree-based model for well interpretation strategy**
+
+Associated with Chung Yuan Christian University
+
+Jan 2022 – June 2023
+
+- Engineered an automated data extraction pipeline using a web crawler to scrape Grandmaster-level replays, processing game screens every two seconds to create a continuous dataset of 3,309 matches.
+
+- Developed a computer vision module utilizing Hough Circles and custom RGB frame filters to detect and extract dynamic in-game features.
+
+- Scaled the image dataset for model training by applying extensive data augmentation techniques, including background splitting and randomization, to generate over 52,500 training samples.
+
+- Trained and evaluated multiple machine learning models—including CNNs, XGBoost, Random Forest, and GradientBoost—using 8-fold cross-validation to classify game states.
+
+- Designed an interpretable decision-tree-based recommendation engine that analyzed real-time feature importance, successfully identifying strategies that increased simulated win rates by 18% to 34%.
+
+
+
+## **Vistrace**
+
+- Engineered a high-performance ARPG engine in Rust/Bevy with strict DOD and 100% ECS compliance, optimizing the WASM pipeline for sub-second web deployment.
+
+- Architected an AI-driven Agentic Workflow utilizing 10+ specialized AI sub-agents to autonomously execute TDD logic, verify builds, and manage cross-module dependencies, reducing development cycles by 30%.
+
+- Developed 12+ custom Rust CLI tools and static analysis guardrails that eradicated circular dependencies and automated 80% of the game's content ingestion pipeline.
+
+- Automated end-to-end testing and documentation by combining AI scenario generation with Playwright/Rust, achieving 95%+ test coverage on core systems, cutting manual QA time by 60%, and maintaining 100% automated documentation accuracy.
+
+- Integrated generative AI pipelines to accelerate asset creation, deploying 30+ production-ready UI and background assets and reducing deployment time from days to minutes.
 
 
 
