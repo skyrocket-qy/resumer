@@ -481,7 +481,7 @@
 
 #regular-entry(
   [
-    #strong[English (Intermediate)]
+    #strong[English (Professional working proficiency)]
 
   ],
   [

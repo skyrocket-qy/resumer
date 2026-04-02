@@ -296,6 +296,6 @@ Google
 
 
 
-## **English (Intermediate)**
+## **English (Professional working proficiency)**
 
 
