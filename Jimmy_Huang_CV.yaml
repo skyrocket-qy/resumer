@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
 cv:
   name: Jimmy Huang
-  headline: Senior Backend Engineer & Cloud Architect
+  headline: Senior Backend Engineer
   location: Taipei, Taiwan
   email: skyrocketqy81@gmail.com
   photo:
@@ -29,7 +29,6 @@ cv:
         highlights:
           - Developing various modern slot games
           - Administrator backend management
-          - Explore OpenClaw usage with business
       - company: Fontech
         position: Senior Backend Engineer
         start_date: 2024-11
@@ -117,7 +116,7 @@ cv:
     projects:
       - name: Alarm system
         start_date: 2024-11
-        end_date: present
+        end_date: 2025-05
         location: Associated with Fontech
         summary: The project built on well-known camera corp for alarm management.
         highlights:
@@ -158,11 +157,12 @@ cv:
           - Trained and evaluated multiple machine learning models—including CNNs, XGBoost, Random Forest, and GradientBoost—using 8-fold cross-validation to classify game states.
           - Designed an interpretable decision-tree-based recommendation engine that analyzed real-time feature importance, successfully identifying strategies that increased simulated win rates by 18% to 34%.
       - name: Vistrace
+        start_date: 2026-02
         highlights:
-          - Engineered a high-performance ARPG engine in Rust/Bevy with strict DOD and 100% ECS compliance, optimizing the WASM pipeline for sub-second web deployment.
+          - Engineered a high-performance ARPG engine in Godot, optimizing the WASM pipeline for sub-second web deployment.
           - Architected an AI-driven Agentic Workflow utilizing 10+ specialized AI sub-agents to autonomously execute TDD logic, verify builds, and manage cross-module dependencies, reducing development cycles by 30%.
-          - Developed 12+ custom Rust CLI tools and static analysis guardrails that eradicated circular dependencies and automated 80% of the game's content ingestion pipeline.
-          - Automated end-to-end testing and documentation by combining AI scenario generation with Playwright/Rust, achieving 95%+ test coverage on core systems, cutting manual QA time by 60%, and maintaining 100% automated documentation accuracy.
+          - Developed 12+ custom CLI tools and static analysis guardrails that eradicated circular dependencies and automated 80% of the game's content ingestion pipeline.
+          - Automated end-to-end testing and documentation by combining AI scenario generation with Godot-ai MCP, achieving 95%+ test coverage on core systems, cutting manual QA time by 60%, and maintaining 100% automated documentation accuracy.
           - Integrated generative AI pipelines to accelerate asset creation, deploying 30+ production-ready UI and background assets and reducing deployment time from days to minutes.
     licenses_and_certifications:
       - name: AWS Certified Solutions Architect – Associate
@@ -191,15 +191,13 @@ cv:
     #   - bullet: Fulbright Scholarship for Graduate Studies (2018)
     skills:
       - label: Languages
-        details: Go, Python, C, Rust, JavaScript (Node.js/React.js/Next.js), Lua, Shell
+        details: Go, Python, C, Js/Ts, Lua, Shell
       - label: Infrastructure & Cloud
         details: AWS, Kubernetes, Docker, Helm, Ansible, CI/CD
       - label: AI/ML & Data Science
         details: LLM, RAG, TensorFlow, CNN, Decision Trees, Web Crawling
       - label: Monitoring & Observability
-        details: OpenTelemetry, Prometheus, Grafana, Loki, Fluentd, D-Bus, K6 (Testing)
-      - label: Operating Systems & Tools
-        details: Linux, Git, Makefile, D-Bus
+        details: OpenTelemetry, Prometheus, Grafana, Loki, Fluentd, K6
     languages:
       - name: Mandarin (Native)
       - name: English (Professional working proficiency)
