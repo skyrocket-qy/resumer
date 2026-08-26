@@ -17,13 +17,11 @@ June 2025 – present
 
 
 
-11 months
+1 year 3 months
 
 - Developing various modern slot games
 
 - Administrator backend management
-
-- Explore OpenClaw usage with business
 
 
 
@@ -181,7 +179,7 @@ Sept 2015 – June 2019
 
 Associated with Fontech
 
-Nov 2024 – present
+Nov 2024 – May 2025
 
 The project built on well-known camera corp for alarm management.
 
@@ -255,13 +253,15 @@ Jan 2022 – June 2023
 
 ## **Vistrace**
 
-- Engineered a high-performance ARPG engine in Rust/Bevy with strict DOD and 100% ECS compliance, optimizing the WASM pipeline for sub-second web deployment.
+Feb 2026 – present
+
+- Engineered a high-performance ARPG engine in Godot, optimizing the WASM pipeline for sub-second web deployment.
 
 - Architected an AI-driven Agentic Workflow utilizing 10+ specialized AI sub-agents to autonomously execute TDD logic, verify builds, and manage cross-module dependencies, reducing development cycles by 30%.
 
-- Developed 12+ custom Rust CLI tools and static analysis guardrails that eradicated circular dependencies and automated 80% of the game's content ingestion pipeline.
+- Developed 12+ custom CLI tools and static analysis guardrails that eradicated circular dependencies and automated 80% of the game's content ingestion pipeline.
 
-- Automated end-to-end testing and documentation by combining AI scenario generation with Playwright/Rust, achieving 95%+ test coverage on core systems, cutting manual QA time by 60%, and maintaining 100% automated documentation accuracy.
+- Automated end-to-end testing and documentation by combining AI scenario generation with Godot-ai MCP, achieving 95%+ test coverage on core systems, cutting manual QA time by 60%, and maintaining 100% automated documentation accuracy.
 
 - Integrated generative AI pipelines to accelerate asset creation, deploying 30+ production-ready UI and background assets and reducing deployment time from days to minutes.
 
@@ -281,15 +281,13 @@ Google
 
 
 # Skills
-**Languages:** Go, Python, C, Rust, JavaScript (Node.js/React.js/Next.js), Lua, Shell
+**Languages:** Go, Python, C, Js/Ts, Lua, Shell
 
 **Infrastructure & Cloud:** AWS, Kubernetes, Docker, Helm, Ansible, CI/CD
 
 **AI/ML & Data Science:** LLM, RAG, TensorFlow, CNN, Decision Trees, Web Crawling
 
-**Monitoring & Observability:** OpenTelemetry, Prometheus, Grafana, Loki, Fluentd, D-Bus, K6 (Testing)
-
-**Operating Systems & Tools:** Linux, Git, Makefile, D-Bus
+**Monitoring & Observability:** OpenTelemetry, Prometheus, Grafana, Loki, Fluentd, K6
 
 # Languages
 ## **Mandarin (Native)**

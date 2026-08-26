@@ -1,4 +1,4 @@
-```
+```shell
 Create a new CV yaml file:
 
 rendercv new "Jimmy Huang"

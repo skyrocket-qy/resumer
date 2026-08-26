@@ -6,7 +6,7 @@
   name: "Jimmy Huang",
   title: "Jimmy Huang - CV",
   footer: context { [#emph[Jimmy Huang -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in Apr 2026] ],
+  top-note: [ #emph[Last updated in Aug 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "us-letter",
@@ -80,15 +80,15 @@
   entries-highlights-space-between-bullet-and-text: 0.5em,
   date: datetime(
     year: 2026,
-    month: 4,
-    day: 2,
+    month: 8,
+    day: 26,
   ),
 )
 
 
 = Jimmy Huang
 
-  #headline([Senior Backend Engineer & Cloud Architect])
+  #headline([Senior Backend Engineer])
 
 #connections(
   [#connection-with-icon("location-dot")[Taipei, Taiwan]],
@@ -110,8 +110,6 @@
 
     - Administrator backend management
 
-    - Explore OpenClaw usage with business
-
   ],
   [
     Taiwan
@@ -120,7 +118,7 @@
 
     
 
-    11 months
+    1 year 3 months
 
   ],
 )
@@ -343,7 +341,7 @@
   [
     Associated with Fontech
 
-    Nov 2024 – present
+    Nov 2024 – May 2025
 
   ],
 )
@@ -417,18 +415,20 @@
   [
     #strong[Vistrace]
 
-    - Engineered a high-performance ARPG engine in Rust\/Bevy with strict DOD and 100\% ECS compliance, optimizing the WASM pipeline for sub-second web deployment.
+    - Engineered a high-performance ARPG engine in Godot, optimizing the WASM pipeline for sub-second web deployment.
 
     - Architected an AI-driven Agentic Workflow utilizing 10+ specialized AI sub-agents to autonomously execute TDD logic, verify builds, and manage cross-module dependencies, reducing development cycles by 30\%.
 
-    - Developed 12+ custom Rust CLI tools and static analysis guardrails that eradicated circular dependencies and automated 80\% of the game's content ingestion pipeline.
+    - Developed 12+ custom CLI tools and static analysis guardrails that eradicated circular dependencies and automated 80\% of the game's content ingestion pipeline.
 
-    - Automated end-to-end testing and documentation by combining AI scenario generation with Playwright\/Rust, achieving 95\%+ test coverage on core systems, cutting manual QA time by 60\%, and maintaining 100\% automated documentation accuracy.
+    - Automated end-to-end testing and documentation by combining AI scenario generation with Godot-ai MCP, achieving 95\%+ test coverage on core systems, cutting manual QA time by 60\%, and maintaining 100\% automated documentation accuracy.
 
     - Integrated generative AI pipelines to accelerate asset creation, deploying 30+ production-ready UI and background assets and reducing deployment time from days to minutes.
 
   ],
   [
+    Feb 2026 – present
+
   ],
 )
 
@@ -458,15 +458,13 @@
 
 == Skills
 
-#strong[Languages:] Go, Python, C, Rust, JavaScript (Node.js\/React.js\/Next.js), Lua, Shell
+#strong[Languages:] Go, Python, C, Js\/Ts, Lua, Shell
 
 #strong[Infrastructure & Cloud:] AWS, Kubernetes, Docker, Helm, Ansible, CI\/CD
 
 #strong[AI\/ML & Data Science:] LLM, RAG, TensorFlow, CNN, Decision Trees, Web Crawling
 
-#strong[Monitoring & Observability:] OpenTelemetry, Prometheus, Grafana, Loki, Fluentd, D-Bus, K6 (Testing)
-
-#strong[Operating Systems & Tools:] Linux, Git, Makefile, D-Bus
+#strong[Monitoring & Observability:] OpenTelemetry, Prometheus, Grafana, Loki, Fluentd, K6
 
 == Languages
 
