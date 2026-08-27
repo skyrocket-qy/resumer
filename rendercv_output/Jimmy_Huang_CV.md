@@ -1,5 +1,6 @@
 # Jimmy Huang's CV
 
+- Phone: +886 975 032 691
 - Email: [skyrocketqy81@gmail.com](mailto:skyrocketqy81@gmail.com)
 - Location: Taipei, Taiwan
 - Website: [adminx-ebon.vercel.app](https://adminx-ebon.vercel.app/)

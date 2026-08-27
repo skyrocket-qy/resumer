@@ -81,7 +81,7 @@
   date: datetime(
     year: 2026,
     month: 8,
-    day: 26,
+    day: 27,
   ),
 )
 
@@ -93,6 +93,7 @@
 #connections(
   [#connection-with-icon("location-dot")[Taipei, Taiwan]],
   [#link("mailto:skyrocketqy81@gmail.com", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[skyrocketqy81\@gmail.com]]],
+  [#link("tel:+886-975-032-691", icon: false, if-underline: false, if-color: false)[#connection-with-icon("phone")[0975 032 691]]],
   [#link("https://adminx-ebon.vercel.app/", icon: false, if-underline: false, if-color: false)[#connection-with-icon("link")[adminx-ebon.vercel.app]]],
   [#link("https://linkedin.com/in/jimmy-huang-07aa4722a", icon: false, if-underline: false, if-color: false)[#connection-with-icon("linkedin")[jimmy-huang-07aa4722a]]],
   [#link("https://github.com/skyrocket-qy", icon: false, if-underline: false, if-color: false)[#connection-with-icon("github")[skyrocket-qy]]],
